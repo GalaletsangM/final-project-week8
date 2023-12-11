@@ -1,0 +1,114 @@
+body {
+  background-color: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: #885df1;
+}
+.weather-app {
+  background-color: white;
+  width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+.search-form-input {
+background-color: #f9f7fe;
+border: none;
+border-radius: 6px;
+width: 80%;
+padding: 15px 20px;
+font-size: 16px;
+}
+.search-form-button {
+  background-color: #885df1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+main {
+  padding: 30px 0;
+}
+.weather-app-data {
+display: flex;
+justify-content: space-between;
+}
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 700;
+  color: #272142;
+  line-height: 48px;
+}
+.weather-app-details {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+}
+.weather-app-details strong{
+  color: #f65282;
+}
+.weather-app-temperature-container{
+display: flex;
+}
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
+.weather-app-temperature {
+  font-size: 88px;
+  font-weight: bold;
+  line-height: 88px;
+}
+.weather-app-unit {
+  margin-top: 6px;
+  font-size: 28px;
+}
+.Fahrenheit-link {
+  text-decoration: none;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  color: #000;
+}
+.weather-forecast-date {
+  text-align: center;
+  font-size: 17px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
+}
+.weather-forecast-temperature {
+  text-align: center;
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(0, 0 , 0, 0.6);
+}
